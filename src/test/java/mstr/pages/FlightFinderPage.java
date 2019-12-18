@@ -76,6 +76,7 @@ public class FlightFinderPage {
 	
 	public void loadFlightFinderPage()
 	{
+		System.out.println("loadFlightFinderPage");
 		PageFactory.initElements(Config.driver,this);
 	}
 	
